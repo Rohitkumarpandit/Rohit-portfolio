@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Developer Portfolio</title> 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+
+
+
+
+    <style>
+        *{
+            margin:0;
+            padding:0;
+        }
+        body{
+            background-color: rgb(0, 0, 33);
+            color: white;
+            font-family:'poppins' ,sans-serif;
+
+        }
+        nav{
+            display:flex;
+           /* position: sticky;*/
+            justify-content: space-around;
+            align-items: center;
+            height: 50px;
+            background-color: rgb(6, 6, 63);
+        }
+        nav ul{
+            display: flex;
+            justify-content: center;
+            
+        
+        }
+        nav ul li{
+            list-style:none;
+        
+            margin: 0 23px;
+
+            
+        }
+        nav ul li a{
+            text-decoration: none;
+            color:white
+        }
+        nav ul li a:hover{
+            color:red;
+            font-size: 1.04rem;                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  rem;
+        }
+        main hr{
+            border:0;
+            background: #9c97f1;
+            height:1.2px;
+            margin:60px 84px;
+        }
+        .left{
+            font-size: 1.5rem;
+
+        }
+        .firstsection{
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            margin: 130px 0;
+            
+            
+        }
+        .firstsection > div{
+            width: 30%;
+        
+        }
+        .leftsection{
+            
+            font-size: 2rem;
+           /* margin: 70px 0;*/
+           
+            
+
+        }
+        .leftsection .buttons{
+            padding: 50px 0;
+        }
+        .leftsection .btn{
+            padding:12px;
+            color: white;
+            background-color:#030344;
+            border:2px solid white;
+            border-radius: 6px;
+            font-size: 20px;
+            cursor:pointer;
+        }
+        .leftsection .btn:hover{
+            color:red;
+            font-size: 1.04rem;
+        }
+
+        .rightsection img{
+            height: 200px;
+            width:50%;
+            
+        }
+        .purple{
+            color:rgb(59, 6, 112)
+        }
+        .text-gray{
+            color:gray;
+        }
+        #element{ 
+             color:rgb(59, 6, 112)
+
+
+        }
+        .secondsection{
+            max-width: 80vw;
+            margin: auto;
+            height: 80vh;
+        }
+        .secondsection h1{
+            font-size: 1.9rem;
+        }
+        .secondsection .box{
+            background:white;
+            width:82vw;
+            height:2px;
+            
+          margin:56px 0;
+          display:flex ;
+        }
+        .secondsection .vertical{
+            height:93px;
+            width:1px;
+            background-color: white;
+            margin:0 110px;
+        }
+        .image-top{
+            width:23px;
+            position: relative;
+            top:-32px;
+            left:-9px;
+
+        }
+        .vertical-title{
+            position: relative;
+            top:70px;
+            width: 150px;
+            font-size: 14px;
+            
+        }
+        .vertical-desc{
+            position:relative;
+            top:86px;
+            width:210px;
+            color: gray;
+            font-size: 9px;
+        }
+        footer{
+            background-color:#090922;
+           /* height:203px;*/
+        }
+        .footer{
+            display:flex;
+            padding:23px 122px;
+            justify-content: space-evenly;
+            list-style: none;
+        }
+        .footer > div{
+            width:223px;
+        }
+        footer .footer-rights{
+            text-align: center;
+            color: gray;
+            padding:12px 0;
+        }
+        
+        
+
+    </style>
+</head>
+<body>
+    <header>
+        
+        <nav>
+            <div class="left">Rohit Portfolio</div>
+            <div class="Right">
+                <ul>
+                    <li><a href="#">Home </a></li></a>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <header>
+        <main>
+            <section class="firstsection">
+                <div class="leftsection">
+                    Hi,My name is <span class="purple">Rohit </span>
+                    <div>and I am a Passionate</div>
+                    <div> <span class="purple">Web Developer</span>
+                    </div>
+
+                    <span id="element"></span>
+                    <div class="buttons">
+                        <button class="btn">Download Resume</button>
+                        <button class="btn"> Visit Github</button>
+                    </div>
+
+                </div>
+                <div class="rightsection">
+                    <img src="bg1.png.jpg">
+                </div>
+            </section>
+            <hr>
+            <section class="secondsection">
+                <span class="text-gray">What I have done so far</span>
+                <h1> Work  Experience</h1>
+                <div class="box">
+                    <div class="vertical">
+                     <img class="image-top" src="developer.png" alt="">
+                        <div class="vertical-title">
+                            HTML Developer-Pintrest(2022-2023)
+                        </div>
+                        <div class="vertical-desc">
+
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                            
+                            Odit pariatur minus laudantium qui eligendi itaque aut id veniam? Velit reiciendis eum officia? 
+                            Fugit quia doloremque illum facere nam quas inventore?
+                        </div>
+                    </div>
+                            <div class="vertical">
+                                <img class="image-top" src="facebook.logo.png" alt="">
+                                <div class="vertical-title">
+                                    React Developer-Facebook(2022-2023)
+                                </div>
+                                <div class="vertical-desc">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                     Eos amet nemo tempore, rem praesentium quia voluptates dolore!
+                                      Ipsam illo repellat dignissimos rerum, nesciunt labore maiores harum in voluptatem placeat tempora?
+                                </div>
+                            </div>
+
+
+                    
+                    <div class="vertical">
+                        <img class="image-top" src="insta.logo.jpeg" alt="">
+                        <div class="vertical-title">
+                         Node Developer-Instagram(2022-2023)
+                    </div>
+                    <div class="vertical-desc">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                        Cum voluptates delectus, earum, nisi harum in assumenda dolorum
+                         expedita inventore voluptate ipsam dolore quod unde. Earum illo vero delectus dolor quae.
+                    </div>
+                    </div>
+                    <div class="vertical">
+
+                <img class="image-top" src="twiter.logo.jpeg" alt="">
+                 <div class="vertical-title">
+                Sql Developer-Twitter(2022-2023)
+                </div>
+                <div class="vertical-desc">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                     Officia, labore dicta itaque unde qui, commodi in provident 
+                     quae illo tempore magnam facilis accusantium vel error iusto.
+                </div>
+                    
+                
+            </section>
+        </main> 
+        <footer>
+            <div class="footer">
+            <div class=" footer-first">
+                <h3>Rohit Developer Portfolio</h3>
+            </div>
+            <div class=" footer-second">
+                <ul>
+                    <li>Home</li>
+                    <li>About</li>
+                    <li>Contact</li>
+                    <li>Services</li>
+                    
+                </ul>
+            </div>
+            <div class="Third">
+                <ul>
+                    <li>Home</li>
+                    <li>About</li>
+                    <li>Contact</li>
+                    <li>Services</li>
+                
+                    
+                </ul>
+            </div>
+            <div class="Fourth">
+                <ul>
+                    <li>Home</li>
+                    <li>About</li>
+                    <li>Contact</li>
+                    <li>Services</li>
+                </ul>
+            </div>
+        </div>
+<div class=" footer-rights">
+    copyright&#169;rohitportfolio.com|All rights reserved
+</div>
+        </footer>
+        <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+ <!-- Setup and start animation! -->
+ <script>
+    var typed = new Typed('#element', {
+      strings: ['Web Developer','Graphic Designer','Web Designer',''],
+      typeSpeed: 50,
+    });
+  </script>
+
+        </header>
+
+    
+    
+    
+</body>
+</html>
